@@ -25,9 +25,11 @@ def predict():
 if st.button('Predict'):
     result = predict()
     if result == 1:
-        st.write('Survived')
+        #st.write('Survived')
+        st.write('Hungru, i love you!')
     else:
-        st.write('Not survived')
+        #st.write('Not survived')
+        st.write('Hungru, i love you boht boht jyada!')
 
 else:
     st.write('Please input values to predict survival')
